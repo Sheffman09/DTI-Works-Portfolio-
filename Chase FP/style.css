@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box ;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgb(253, 254, 253);
+}
+nav ul {
+    display: flex;
+    margin: 5px;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+    }
+nav ul li a{
+    color: black;
+    font-weight: bold;
+
+}
+
+.d1{
+    text-align: center;
+    margin-top: 200px;
+    border-radius: px;
+}
+h1{
+    font-size: 70px;
+}
+h3{
+    margin-top: 20px;
+}
+.bts{
+    padding-top: 20px;
+    margin: 15px;
+    gap: 30px;
+}
+.bt1{
+    border-radius: 50px;
+    background-color: green;
+    height: 40px;
+    width: 190px;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+    border: 2px solid rgba(0, 128, 0, 0.86);
+}
+.bt2{border-radius: 50px;
+    height: 40px;
+    width: 190px;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    background: none;
+    border: 2px solid rgb(5, 5, 5);
+    left: 10px;
+
+}
+.bt1 a{
+    color: white;
+}
+.bt2 a{
+    color: black;
+}
+body{
+    background: linear-gradient(rgba(181, 178, 178, 0.888),rgba(255, 255, 255, 0.642),rgba(255, 255, 255, 0.138)), url(IMG/bg\ image.avif);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.logo img{
+    max-height: 70px;
+    border-radius: 0px;
+    margin-left: 150px;
+}
+.top li a{
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    }
+    .top{
+        border-radius: 20px;
+        text-decoration: none;
+        position: relative;
+        width: 100px;
+        height: 30px;
+        border: 2px solid green;
+        bottom: 5px;
+    }
