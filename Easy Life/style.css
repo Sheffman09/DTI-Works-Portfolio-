@@ -1,0 +1,77 @@
+*{
+padding:0px;
+margin: 0px;
+list-style: none;
+text-decoration:none;
+}
+header{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+/* nav{
+    justify-content: space-between;
+} */
+nav ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+nav ul li a{
+    margin: 20px;
+    gap: 10px;
+    color: white;
+}
+.mtext{
+    text-align: center;
+    /* padding-top: 200px; */
+    color: white;
+    margin-top: 200px;
+}
+.bt1 button a{
+    padding-top: 50px;
+    font-size: 10px;
+    color: white;
+}
+.bt1 button{
+    border-radius: 20px;
+        text-decoration: none;
+        /* posit
+        ion: relative; */
+        width: 100px;
+        height: 30px;
+        border: 2px solid rgb(249, 252, 249);
+        bottom: 5px;
+        background: transparent;
+}
+.bt{
+    margin-top: 30px;
+}
+.topb{
+    border: none;
+    font-size: 15px;
+    background: transparent;
+    
+}
+.topb a{
+    color: aqua;
+}
+body{
+    background: url(/IMG/pexels-knownasovan-57690.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo img{
+    max-height: 70px;
+    border-radius: 0px;
+    margin-left: 150px;
+}
+.playb img{
+   height: 150px;
+   width: 150px;
+   margin-bottom: 30px;
+}
