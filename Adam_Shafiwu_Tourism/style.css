@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+
+    /* justify-content: space-between; */
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+
+nav ul li {
+    font-size: 20px;
+    text-decoration: solid;
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    /* color: #fff; */
+    color: gold;
+}
+
+nav ul li a:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+.logo a{
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   font-weight: solid;
+    color: gold;
+}
+#slideshow h1{
+    color: white;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 100px;
+    padding-top: 150px;
+    transition: 0.68s ;
+}
+#slideshow h1:hover {
+    color: aqua;
+    transition: 3s;
+}
+
+#slideshow{
+    height:90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.356)), url(slideshow/duduhgu-restaurant-Your-Ultimate-Tourist-Guide-to-Damba-Festival-2023-in-Ghana-1-1024x683.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    transition: 3s;
+
+}
+@keyframes slide{
+    20%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.356)), url(slideshow/duduhgu-restaurant-Your-Ultimate-Tourist-Guide-to-Damba-Festival-2023-in-Ghana-3.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 3s;
+    }
+    40%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.356)), url(slideshow/national-park-mole-national-park-tourism-ghana-safari.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 3s;
+        background-size: cover;
+    }
+    60%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.356)), url(slideshow/pexels-freestockpro-321526.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 3s;
+        background-size: cover;
+    }
+    80%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.356)), url(slideshow/WhatsApp\ Image\ 2025-02-26\ at\ 20.20.30_bdd58ff9.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: linear-gradient(rgba(0, 0, 0, 0.652),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.356)), url(slideshow/Your-Ultimate-Tourist-Guide-to-Damba-Festival-2023-in-Ghana-art-center-in-tamale.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.view{
+    display: flex;
+    gap:20px ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* width: 90vw; */
+}
+#overview {
+    margin: 20px 5px;
+    padding: 15px;
+    background: #2c3e50;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 550px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/* .view p{
+    font-size: 20px;
+    justify-content: center;
+} */
+
+#overview img {
+    border-radius: 8px;
+    width: 380px;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#overview p{
+color: white;}
+#overview h2{
+    color: gold;
+}
+
+.cta {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* footer form {
+    margin-top: 20px;
+} */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    gap: 300px;
+}
+
+/* DAMBA FESTIVAL */
+.damba{
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+    padding: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.damba h1{
+    color:  #2c3e50;
+}
+.local img{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 4px;
+    /* justify-content: left;
+    align-items: start;
+    text-align: start; */
+    box-shadow: 5px 5px 5px;
+}
+#germany{
+    margin-top: 30px;
+}
+#local1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#local1 img{
+    padding: 15px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+#local2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#local2 img{
+    padding: 15px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+#local3{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+}
+#local3 img{
+    padding: 15px;
+}
+
+/* BUGUM */
+.bugum{
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+    padding: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+/* .bug{
+    font-size: 30px;
+    text-decoration: solid; */
+.fires img{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 4px;
+    margin:0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+}
+#fire1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#fire1 img{
+    padding: 15px;
+}
+#fire2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#fire2 img{
+    padding: 15px;
+}
+
+/* way of living */
+.living{
+    line-height: 35px;
+    padding: 30px;
+    font-size: 20px;
+
+}
+#live{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+#live h1:hover {
+    color: aqua;
+    transition: 3s;
+}
+.creati{
+    display: flex;
+    justify-content: center;
+}
+.molimg{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+}
+#mol img{
+    display: flex; margin: 20px 0;
+    padding: 20px;
+    background:gold;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 550px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#mol{
+    margin: 15px;
+}
+input{
+    border:none;
+    outline: hidden;
+    background: transparent;
+    line-height: 42px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height: 39px;
+    width: 200px;
+    border-radius: 9px;
+    background: white;
+    margin-bottom: 5px;
+    margin-top: 9px;
+}
+.input1{
+    height: 100px;
+    width: 200px;
+    background: white;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+textarea{
+    height: 100px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    outline: hidden;
+    line-height: 30px;
+}
+.btn{
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 9px;
+}
+body{
+    background: linear-gradient(rgb(90, 218, 229),rgb(202, 199, 193),rgb(64, 205, 224));
+}
+#overview h2{
+    color: gold;
+}
